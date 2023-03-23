@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "igv-report-curator"
+version = "0.1.0"
+description = ""
+authors = ["tu1026 <s31302@gmail.com>"]
+readme = "README.md"
+packages = [{include = "igv_report_curator"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+igv-reports = "^1.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
