@@ -1,8 +1,8 @@
 version: "0.1"
 services:
-  igv_report_curator:
+  igv_report:
     build: .
-    image: igv_report_curator
-    container_name: igv_report_curator
+    image: igv_report
+    container_name: igv_report
     volumes:
       - ./:/app
